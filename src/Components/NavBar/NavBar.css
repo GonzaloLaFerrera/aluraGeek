@@ -1,0 +1,26 @@
+/* OPCION CSS SECUNDARIA */
+.NavBar {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 4rem;
+    justify-content: space-between;
+}
+
+.NavBar__izquierda {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* OPCION CSS ORIGINAL */
+
+/* .NavBar {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 4rem;
+} */
+
+/* .NavBar__barraBusqueda {
+    margin-right: 30rem;
+} */
