@@ -1,0 +1,48 @@
+.productGallery__container {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+.productGallery__upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.productGallery__title {
+    color:#464646;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.productGallery__verTodo, .productGallery__verProducto {
+    color: #2A7AE4;
+    font-size: 1rem;
+}
+
+.productGallery__lower {
+    display: flex;
+    gap: 2rem;
+}
+
+.productGallery__containerProducto {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.productGallery__nombreProducto {
+    color: #464646;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.productGallery__costoProducto {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+}
