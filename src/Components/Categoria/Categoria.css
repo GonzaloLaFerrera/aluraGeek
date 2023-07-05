@@ -1,0 +1,28 @@
+.categoria {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+.categoria__upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.categoria__title {
+    color:#464646;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.categoria__verTodo {
+    color: #2A7AE4;
+    font-size: 1rem;
+}
+
+.productos {
+    display: flex;
+    gap: 2rem;
+}
