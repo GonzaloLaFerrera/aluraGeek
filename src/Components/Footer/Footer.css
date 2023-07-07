@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    margin: 4rem 0 2rem;
+    padding: 4rem;
+    background-color: #EAF2FD;
+    align-items: flex-start;
+    gap: 7rem;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 48rem) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 2rem;
+        padding: 1rem;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .footer__logo{
+        margin-right: 3rem;
+    }
+}

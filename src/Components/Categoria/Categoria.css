@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 1rem;
+    margin-right: 0.9rem;
 }
 
 .categoria__title {
@@ -25,4 +26,15 @@
 .productos {
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 48rem) {
+    .categoria{
+        margin: 4rem 2rem;
+    }
+
+    .productos {
+        margin-left: 1rem;
+    }
 }

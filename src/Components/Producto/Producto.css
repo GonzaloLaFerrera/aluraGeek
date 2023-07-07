@@ -4,11 +4,17 @@
     gap: 0.5rem;
 }
 
+.producto__imagen {
+    max-width: 11rem;
+    max-height: 10.875rem;
+}
+
 .producto__nombre {
     color: #464646;
     font-size: 0.875rem;
     font-weight: 500;
     line-height: normal;
+    max-width: 11rem;
 }
 
 .producto__costo {

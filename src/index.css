@@ -3,6 +3,11 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+p {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

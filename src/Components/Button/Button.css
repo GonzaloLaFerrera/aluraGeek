@@ -2,7 +2,6 @@
     background-color: #6278f7;
     border-radius: 2px;
     font-weight: 700;
-    /* font-family: 'Raleway', sans-serif; */
     padding: 1rem;
     border: none;
     color: #FFFFFF;
@@ -13,7 +12,7 @@
 }
 
 .boton:hover {
-    background-color: #95FFD4;
+    background-color: #5ad8a6;
     transform: scale(1.05);
     transition: 0.3s;
 }

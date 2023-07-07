@@ -24,3 +24,19 @@ header {
     font-size: 1.375rem;
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 48rem) {
+    .header {
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+    
+    .header__content {
+        margin: 0 2rem;
+    }
+
+    .header__titulo{
+        font-size: 2.5rem;
+    }
+}

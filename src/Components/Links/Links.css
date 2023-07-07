@@ -1,0 +1,9 @@
+.Links {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    font-size: 1rem;
+    font-weight: 500;
+    gap: 1.5rem;
+}

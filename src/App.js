@@ -4,6 +4,8 @@ import BannerHeader from './Components/BannerHeader';
 import NavBar from './Components/NavBar';
 import ProductGallery from './Components/ProductGallery';
 import Categoria from './Components/Categoria';
+import Footer from './Components/Footer';
+import Copyright from './Components/Copyright';
 
 function App() {
 
@@ -179,6 +181,8 @@ function App() {
           productos={productos.filter(producto => producto.categoria === categoria.titulo)}
         />)
       }
+      <Footer />
+      <Copyright />
 
     </div>
   );
