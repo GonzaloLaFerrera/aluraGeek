@@ -12,11 +12,25 @@
     align-items: center;
 }
 
-@media screen and (max-width: 48rem) {
+/* @media screen and (min-width: 25.75rem) {
+    .footer{
+        margin: 1rem 0;
+        padding-right: 0;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .footer__logo{
+        margin-right: 3rem;
+    }
+} */
+
+/* @media screen and (min-width: 0rem) {
     .footer{
         display: flex;
         flex-direction: column;
-        margin: 1rem 2rem;
+        margin-top: 1rem;
+        margin: 0;
         padding: 1rem;
         gap: 2rem;
         align-items: center;
@@ -25,4 +39,4 @@
     .footer__logo{
         margin-right: 3rem;
     }
-}
+} */

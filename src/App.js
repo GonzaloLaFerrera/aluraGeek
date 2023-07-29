@@ -6,6 +6,9 @@ import ProductGallery from './Components/ProductGallery';
 import Categoria from './Components/Categoria';
 import Footer from './Components/Footer';
 import Copyright from './Components/Copyright';
+import ClientLogIn from './Pages/ClientLogIn';
+import Formulario from './Pages/FormikForm';
+
 
 function App() {
 
@@ -169,10 +172,16 @@ function App() {
   }
 ])
 
+  const handleSubmit = (valores) => {
+    console.log('La data del log es: ', valores)
+  }
+
   return (
     <div>
       <NavBar />
       <BannerHeader />
+      <Formulario />
+      {/* <ClientLogIn handleSubmit={handleSubmit}/> */}
       {/* <ProductGallery /> */}
       {
         categorias.map((categoria) => <Categoria 

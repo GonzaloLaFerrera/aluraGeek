@@ -29,12 +29,44 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 48rem) {
+
+
+/* @media screen and (max-width: 48rem) {
     .categoria{
         margin: 4rem 2rem;
+        
+    }
+
+    .categoria__upper {
+        margin-right: 0.5rem;
+    }
+
+    .categoria__title{
+        margin-left: 1rem;
+    }
+
+    .categoria__verTodo{
+        margin-right: 3rem;
     }
 
     .productos {
-        margin-left: 1rem;
+        margin: 0 2rem;
+        gap: 0.2rem;
     }
 }
+
+@media screen and (max-width: 37.5rem) {
+    .categoria{
+        margin: 2rem 0;
+    }
+
+    .categoria__upper {
+        margin-left: 1rem;
+    }
+
+    .productos {
+        gap: 1rem;
+        margin: 0 0 0 1.5rem;
+    }
+}
+ */

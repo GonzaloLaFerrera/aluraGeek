@@ -5,3 +5,9 @@
     align-items: center;
     margin-bottom: 2rem;
 }
+
+/* @media screen and (min-width: 0rem) {
+    .Copyright{
+        margin-top: 1rem;
+    }
+} */

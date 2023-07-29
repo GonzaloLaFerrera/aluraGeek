@@ -1,0 +1,16 @@
+.clientLogIn__container {
+    display: flex;
+    flex-direction: column;
+    padding: 5.75rem 20rem;
+    gap: 1.54rem;
+    background: #F5F5F5;
+}
+
+.clientLogIn__titulo {
+    color: #464646;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: normal;
+    align-self: center;
+    margin-bottom: 2rem;
+}

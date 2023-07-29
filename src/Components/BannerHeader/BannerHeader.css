@@ -25,11 +25,12 @@ header {
     font-weight: 700;
 }
 
-
+/* 
 @media screen and (max-width: 48rem) {
     .header {
         align-items: flex-start;
         padding-top: 2rem;
+        height: 15rem;
     }
     
     .header__content {
@@ -40,3 +41,19 @@ header {
         font-size: 2.5rem;
     }
 }
+
+@media screen and (max-width: 25.75rem) {
+    .header {
+        align-items: flex-start;
+        padding-top: 1rem;
+    }
+    
+    .header__content {
+        margin: 0 2rem;
+        gap: 1.5rem;
+    }
+
+    .header__titulo{
+        font-size: 2.5rem;
+    }
+} */
