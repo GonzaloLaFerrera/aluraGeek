@@ -1,7 +1,7 @@
 import './NavBar.css';
 import Button from '../Button';
 
-function NavBar() {
+function NavBar(props) {
     return <div className='NavBar'>
         <div className='NavBar__izquierda'>
             <img className='NavBar__logoJoystick' src='/img/sports_esports_black_24dp 1.svg' alt='Icono del Logo'></img>

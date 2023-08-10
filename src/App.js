@@ -8,6 +8,7 @@ import Footer from './Components/Footer';
 import Copyright from './Components/Copyright';
 import ClientLogIn from './Pages/ClientLogIn';
 import Formulario from './Pages/FormikForm';
+import FormularioContacto from './Components/Contacto/FormularioContacto';
 
 
 function App() {
@@ -172,9 +173,13 @@ function App() {
   }
 ])
 
+//Estado para mostrar u ocultar el Log In del Cliente (VER)
+const [mostrarLogIn, actualizarMostrarLogIn] = useState(false)
+
   const handleSubmit = (valores) => {
     console.log('La data del log es: ', valores)
   }
+
 
   return (
     <div>
@@ -192,6 +197,7 @@ function App() {
       }
       <Footer />
       <Copyright />
+      <FormularioContacto/>
 
     </div>
   );
