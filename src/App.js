@@ -173,8 +173,16 @@ function App() {
   }
 ])
 
-//Estado para mostrar u ocultar el Log In del Cliente (VER)
+//Estado para mostrar u ocultar el Log In del Cliente (VER) (Agregar a las notas)
 const [mostrarLogIn, actualizarMostrarLogIn] = useState(false)
+
+  const handleMostrarLogIn = () => {
+    if(mostrarLogIn === false){
+      actualizarMostrarLogIn(true)
+    } else {
+      actualizarMostrarLogIn(false)
+    }
+  };
 
   const handleSubmit = (valores) => {
     console.log('La data del log es: ', valores)
@@ -183,9 +191,9 @@ const [mostrarLogIn, actualizarMostrarLogIn] = useState(false)
 
   return (
     <div>
-      <NavBar />
+      <NavBar handleMostrarLogIn={handleMostrarLogIn}/>
       <BannerHeader />
-      <Formulario />
+      {mostrarLogIn === true ? <Formulario /> : null}
       {/* <ClientLogIn handleSubmit={handleSubmit}/> */}
       {/* <ProductGallery /> */}
       {

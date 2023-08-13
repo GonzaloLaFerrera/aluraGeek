@@ -1,7 +1,8 @@
 import './NavBar.css';
 import Button from '../Button';
 
-function NavBar(props) {
+function NavBar({handleMostrarLogIn}) {
+
     return <div className='NavBar'>
         <div className='NavBar__izquierda'>
             <img className='NavBar__logoJoystick' src='/img/sports_esports_black_24dp 1.svg' alt='Icono del Logo'></img>
@@ -9,7 +10,7 @@ function NavBar(props) {
             <img className='NavBar__barraBusqueda' src='/img/Barra_de_busqueda.png' alt='Img de barra de busqueda'></img>
         </div>
         
-        <Button>Login</Button>
+        <Button handleMostrarLogIn={handleMostrarLogIn}>Login</Button>
 
         {/* OPCION ORIGINAL */}
         {/* <img className='NavBar__logoJoystick' src='/img/sports_esports_black_24dp 1.svg' alt='Icono del Logo'></img>
